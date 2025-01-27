@@ -31,3 +31,11 @@ class Calculating constructor(first_num:Int, cal_sym:String, sec_num:Int){
 // list 같은 배열에 추가
 // 소지금 입력 시, 살 수 있는 자동차 개수 및 종류 출력
 
+class CarClass{
+    class km_per_liter(_car_name:String){
+        car_name = _car_name
+    }
+}
+// class에서 constructor의 역할과 필요성 
+// -> 특히 constructor 없이 아래 변수 구성 시, class로 입력되는 변수 개수 설정은?
+// ex) CarClass(소나타)와 CarClass(소나타, 1000)으로 했을 때, 소지금에 따른 return을 받을 수 있나?
